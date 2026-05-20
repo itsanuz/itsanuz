@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Singh | Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans relative overflow-x-hidden selection:bg-blue-500/20 selection:text-blue-600">
+
+    <div class="absolute top-0 left-[-10%] w-[500px] h-[500px] bg-gradient-to-tr from-blue-200/40 to-teal-200/30 rounded-full blur-[80px] pointer-events-none animate-float"></div>
+    <div class="absolute top-[120vh] right-[-10%] w-[600px] h-[600px] bg-gradient-to-br from-indigo-100/50 to-purple-100/40 rounded-full blur-[100px] pointer-events-none animate-float-delayed"></div>
+
+    <div id="quote-stage" class="w-screen h-screen flex justify-center items-center px-6 bg-slate-50 relative z-50">
+        <div class="text-center max-w-3xl">
+            <h2 id="typing-text" class="text-xl md:text-3xl font-bold leading-relaxed italic font-mono px-4 tracking-wide text-slate-800">
+                </h2>
+        </div>
+    </div>
+
+    <div id="portfolio-main" class="opacity-0 transition-opacity duration-1000">
+        
+        <nav id="main-nav" class="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-slate-200/80 shadow-sm transition-all duration-300">
+            <div class="max-w-5xl mx-auto p-5 flex justify-between items-center">
+                <h1 class="text-xl font-bold tracking-wider bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
+                    ANUJ SINGH 
+                <div class="space-x-6 text-sm font-semibold text-slate-500 nav-links">
+                    <a href="#about-profile" class="hover:text-blue-600 transition-colors">About</a>
+                    <a href="#skills" class="hover:text-blue-600 transition-colors">Skills</a>
+                    <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+                </div>
+            </div>
+        </nav>
+
+        <header id="about-profile" class="max-w-5xl mx-auto py-20 px-6 text-center md:text-left md:flex items-center justify-between gap-12 relative z-10 border-b border-slate-200/60">
+            <div class="space-y-5 max-w-xl animate-fade-in">
+                <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+                    <p class="text-blue-600 font-mono text-xs tracking-wider uppercase font-bold">Open to Opportunities</p>
+                </div>
+                <h2 class="text-5xl md:text-6xl font-black text-slate-900 tracking-tight">
+                    Anuj Singh
+                </h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-950">
+                    Fresher Data Analyst & Aspiring Data Scientist
+                </h3>
+                <p class="text-slate-600 leading-relaxed text-base md:text-lg">
+                    Motivated and detail-oriented B.Com graduate passionate about transforming raw data into meaningful business insights[cite: 10, 12]. Currently building expertise in SQL, Advanced Excel, and AI tools].
+                </p>
+                <div class="pt-4 flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="mailto:anujsinghrajput009@gmail.com" class="bg-gradient-to-r from-blue-600 to-teal-600 text-white font-bold px-7 py-3.5 rounded-xl transition-all duration-300 transform hover:scale-[1.03] shadow-md text-sm">
+                        Email Me [cite: 5]
+                    </a>
+                    <a href="https://www.linkedin.com/in/anujsingh37" target="_blank" class="border border-slate-300 bg-white text-slate-700 hover:text-blue-600 hover:border-blue-500 px-7 py-3.5 rounded-xl transition-all duration-300 text-sm font-semibold shadow-sm flex items-center gap-2">
+                        LinkedIn Profile [cite: 8]
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-12 md:mt-0 flex justify-center relative group">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-teal-400 rounded-full blur-2xl opacity-20"></div>
+                <div class="w-52 h-52 rounded-full border-4 border-white p-1 relative bg-white z-10 shadow-xl">
+                    <div class="w-full h-full rounded-full overflow-hidden bg-slate-100 border border-slate-200">
+                        <img src="profile.jpg" alt="Anuj Singh" class="w-full h-full object-cover object-center">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="skills" class="relative z-10 py-24 px-6 max-w-5xl mx-auto">
+            <h3 class="text-2xl font-bold text-slate-900 mb-12 flex items-center gap-3">
+                <span class="text-blue-600 font-mono text-base">01.</span> Technical Toolkit
+                <span class="h-[1px] bg-slate-200 flex-grow ml-4"></span>
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 reveal">
+                <div class="group bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-blue-400 transition-all duration-300 hover:translate-y-[-4px]">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-xl mb-4">📊</div>
+                    <p class="font-bold text-slate-900 group-hover:text-blue-600">SQL </p>
+                    <p class="text-xs text-slate-500 mt-1">Advanced Queries & Logic </p>
+                </div>
+                <div class="group bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-teal-400 transition-all duration-300 hover:translate-y-[-4px]">
+                    <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-xl mb-4">📈</div>
+                    <p class="font-bold text-slate-900 group-hover:text-teal-600">MS Excel </p>
+                    <p class="text-xs text-slate-500 mt-1">Dashboards & Formulas </p>
+                </div>
+                <div class="group bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-indigo-400 transition-all duration-300 hover:translate-y-[-4px]">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center text-xl mb-4">🤖</div>
+                    <p class="font-bold text-slate-900 group-hover:text-indigo-600">AI Tools </p>
+                    <p class="text-xs text-slate-500 mt-1">Automation & Insights </p>
+                </div>
+                <div class="group bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-purple-400 transition-all duration-300 hover:translate-y-[-4px]">
+                    <div class="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center text-xl mb-4">💰</div>
+                    <p class="font-bold text-slate-900 group-hover:text-purple-600">Tally Prime </p>
+                    <p class="text-xs text-slate-500 mt-1">Financial Data Basics </p>
+                </div>
+            </div>
+
+            <div class="mt-10 pt-6 border-t border-slate-200 flex flex-wrap gap-3 justify-center md:justify-start">
+                <span class="text-xs font-semibold bg-white text-slate-600 border border-slate-200 shadow-sm px-4 py-2 rounded-full hover:border-blue-400 hover:text-blue-600 transition cursor-default">Photoshop</span>
+                <span class="text-xs font-semibold bg-white text-slate-600 border border-slate-200 shadow-sm px-4 py-2 rounded-full hover:border-blue-400 hover:text-blue-600 transition cursor-default">CorelDRAW</span>
+                <span class="text-xs font-semibold bg-white text-slate-600 border border-slate-200 shadow-sm px-4 py-2 rounded-full hover:border-blue-400 hover:text-blue-600 transition cursor-default">Data Cleaning & Reporting </span>
+                <span class="text-xs font-semibold bg-white text-slate-600 border border-slate-200 shadow-sm px-4 py-2 rounded-full hover:border-blue-400 hover:text-blue-600 transition cursor-default">Problem Solving </span>
+            </div>
+        </section>
+
+        <section id="projects" class="relative z-10 max-w-5xl mx-auto py-16 px-6">
+            <h3 class="text-2xl font-bold text-slate-900 mb-12 flex items-center gap-3">
+                <span class="text-blue-600 font-mono text-base">02.</span> Featured Work 
+                <span class="h-[1px] bg-slate-200 flex-grow ml-4"></span>
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center reveal">
+                <div class="group bg-white border border-slate-200 p-8 rounded-2xl transition-all duration-300 hover:border-blue-400 hover:translate-y-[-6px] hover:shadow-lg flex flex-col justify-between md:w-[420px] md:h-[420px] w-full shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="text-2xl">💻</div>
+                            <span class="text-[10px] font-mono tracking-wider bg-blue-50 text-blue-600 border border-blue-100 px-3 py-1 rounded-full uppercase font-bold">SQL Case Study</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors duration-300 mb-4">
+                            SQL Business Intelligence Insights Case Study
+                        </h4>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            An end-to-end data analysis project using complex SQL queries to clean, filter, and extract key business performance metrics from a raw multi-table relational database. Applied Joins, CTEs, and Window Functions to uncover revenue trends.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 text-[11px] font-mono text-slate-400 border-t border-slate-100 pt-4 mt-auto">
+                        <span class="bg-slate-50 px-2 py-1 rounded">Data Optimization</span>
+                        <span class="bg-slate-50 px-2 py-1 rounded">Relational Databases</span>
+                    </div>
+                </div>
+
+                <div class="group bg-white border border-slate-200 p-8 rounded-2xl transition-all duration-300 hover:border-teal-400 hover:translate-y-[-6px] hover:shadow-lg flex flex-col justify-between md:w-[420px] md:h-[420px] w-full shadow-sm">
+                    <div>
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="text-2xl">📊</div>
+                            <span class="text-[10px] font-mono tracking-wider bg-teal-50 text-teal-600 border border-teal-100 px-3 py-1 rounded-full uppercase font-bold">MS Excel Dashboard</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 group-hover:text-teal-600 transition-colors duration-300 mb-4">
+                            Interactive Sales Performance System
+                        </h4>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Transformed massive business tracking sheets into clean, interactive analytics dashboards. Leveraged pivot management, advanced formulas, and custom structural formatting to visually display executive KPIs.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 text-[11px] font-mono text-slate-400 border-t border-slate-100 pt-4 mt-auto">
+                        <span class="bg-slate-50 px-2 py-1 rounded">KPI Mapping</span>
+                        <span class="bg-slate-50 px-2 py-1 rounded">Data Cleaning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-12 border-t border-slate-200 text-xs text-slate-400 font-mono tracking-wider bg-white">
+            Created by Anuj Singh •
+            ALL RIGHTS RESERVED • 2026
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
